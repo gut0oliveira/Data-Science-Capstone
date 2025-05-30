@@ -26,7 +26,7 @@ Certifique-se de ter instalado:
 - Os seguintes pacotes Python:
 
 ```bash
-pip install streamlit pandas joblib matplotlib seaborn scikit-learn xgboost streamlit-lottie
+pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboost streamlit-lottie os datetime requests
 ```
 
 ---
@@ -34,15 +34,20 @@ pip install streamlit pandas joblib matplotlib seaborn scikit-learn xgboost stre
 ## 📁 Estrutura de Diretórios
 
 ```
-Capstone-Data-Science-Project/
+Data-Science-Capstone/
 │
 ├── notebooks/
-│   └── modelos.pkl               # Modelos treinados salvos com joblib
+│   └── 1-data-preprocessing.ipynb         # Coleta e Preparação dos Dados
+│   └── 2-exploratory-data-analysis.ipynb  # Análise Exploratória dos Dados
+│   └── 3-feature-engineering              # Engenharia de Features
+│   └── 4-ml-models                        # Modelagem ML
+│   └── modelos.pkl                        # Modelos treinados
 │
 ├── scripts/
-│   ├── app.py                    # Aplicação Streamlit principal
-│   └── visuals.py                # Funções visuais para o app
+│   ├── app.py                    # Aplicação Streamlit
+│   └── visuals.py                # Funções visuais do app
 │
+├── requirements.txt              # Pacotes necessários
 ├── README.md                     # Este arquivo
 ```
 

@@ -44,11 +44,11 @@ Data-Science-Capstone/
 │   └── modelos.pkl                        # Modelos treinados
 │
 ├── scripts/
-│   ├── app.py                    # Aplicação Streamlit
-│   └── visuals.py                # Funções visuais do app
+│   ├── app.py                             # Aplicação Streamlit
+│   └── visuals.py                         # Funções visuais do app
 │
-├── requirements.txt              # Pacotes necessários
-├── README.md                     # Este arquivo
+├── requirements.txt                       # Pacotes necessários
+├── README.md                              # Este arquivo
 ```
 
 ---

@@ -13,7 +13,9 @@ titulo("Previsão de Arquivos Maliciosos usando ML")
 # Carrega arquivo modelos.pkl
 @st.cache_resource
 def carregar_modelos():
-    caminho = os.path.join(os.path.dirname(__file__), "..", "notebooks", "modelos.pkl")
+    caminho = "modelos.pkl"
+    if not os.path.exists(caminho):
+        st.warning("Arquivo de modelo não encontrado. Baixe e coloque o 'modelos.pkl' na pasta /notebooks.")
     return joblib.load(caminho)
 
 dados_modelos = carregar_modelos()

@@ -57,8 +57,8 @@ Data-Science-Capstone/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/augusto-oliveira/data-science-capstone.git
+cd data-science-capstone
 ```
 ### 2. Instale as dependências
 
@@ -76,10 +76,10 @@ Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 ### 4. Navegue até a pasta do projeto:
 
 - Clique com o botão direito na pastas `/Script` e selecione `Copy Path`
-- Abra o terminal e cole esse código abaixo:
+- Abra o terminal e cole digite o código abaixo:
 
 ```bash
-cd caminho/para/a/pasta/scripts
+cd caminho/copiado/para/a/pasta/scripts
 ```
 
 ### 5. Rode o Streamlit:
@@ -95,7 +95,7 @@ Abra o link gerado no navegador (http://localhost:...) para interagir com a apli
 
 ## 📌 Observações
 
-- O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
+- O arquivo `modelos.pkl` precisa estar dentro da pasta `/Notebooks` para o app funcionar corretamente.
 - Apenas arquivos `.csv` são aceitos.
 
 ---

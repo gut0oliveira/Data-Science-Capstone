@@ -30,7 +30,7 @@ pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboos
 
 ---
 
-## 📁 Estrutura de Diretórios
+## 📁 Estrutura do Projeto
 
 ```
 Data-Science-Capstone/
@@ -52,23 +52,38 @@ Data-Science-Capstone/
 
 ---
 
-## ▶️ Como Executar a Aplicação
+## 🛠️ Como Instalar e Executar
 
-Você pode rodar a aplicação de duas maneiras:
-
-### 1. Usando o terminal do JupyterLab
-
-1. Abra o **JupyterLab**
-2. Vá em: `File > New > Terminal`
-3. No terminal, navegue até a pasta do script:
+### 1. Clone o repositório
 
 ```bash
-cd caminho/para/a/pasta/scripts
-streamlit run app.py
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+### 2. Instale as dependências
+
+```bash
+pip install -r requirements.txt
 ```
 
-4. Copie o link exibido no terminal (geralmente http://localhost:8501) e abra no navegador.
+### 3. Baixe o arquivo de modelos (.pkl)
 
+⚠️ O arquivo modelos.pkl (com mais de 25MB) não pode ser enviado pelo GitHub.
+
+Baixe manualmente aqui: [LINK_DO_GOOGLE_DRIVE]
+
+Depois, coloque-o dentro da pasta notebooks/.
+
+### 4. Rodar a Aplicação
+
+Acesse a pasta scripts/ e execute:
+
+```bash
+cd scripts
+streamlit run app.py
+```
+Abra o link gerado no terminal (geralmente http://localhost:8501) para interagir com a aplicação.
+8888888888888888888888888888888
 ### 2. Usando o terminal comum do sistema
 
 1. Abra o terminal ou prompt de comando
@@ -86,10 +101,7 @@ streamlit run app.py
 
 ---
 
-## 📌 Observações
 
-- O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
-- Apenas arquivos `.csv` são aceitos.
 
 ---
 
@@ -109,13 +121,6 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio/scripts
 ```
 
-## 📦 Instalando Dependências
-
-Recomenda-se criar um ambiente virtual:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 pip install -r ../requirements.txt
 ```
 
@@ -133,9 +138,29 @@ Depois de baixar, coloque o arquivo dentro da pasta `notebooks/` do projeto.
 streamlit run app.py
 ```
 
+## 📌 Observações
+
+- O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
+- Apenas arquivos `.csv` são aceitos.
+
 Abra o link exibido no terminal (geralmente http://localhost:8501) no navegador.
 
 ---
+
+
+88888888888888888888888888888888888888888888888888888888888888888
+
+### 1. Usando o terminal do JupyterLab
+
+1. Abra o **JupyterLab**
+2. Vá em: `File > New > Terminal`
+3. No terminal, navegue até a pasta do script:
+
+```bash
+cd caminho/para/a/pasta/scripts
+streamlit run app.py
+```
+4. Copie o link exibido no terminal (geralmente http://localhost:8501) e abra no navegador.
 
 ✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.
 

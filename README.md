@@ -1,18 +1,18 @@
 # Data-Science-Capstone
 
-# 📊 Previsão de Arquivos Maliciosos usando Machine Learning
+## Previsão de Arquivos Maliciosos usando Machine Learning
 
-Este projeto é uma aplicação desenvolvida com **Streamlit** para realizar previsões de ataques cibernéticos com base em modelos de Machine Learning treinados com dados de tráfego de rede de 2017.
+Este projeto é uma aplicação desenvolvida com **Streamlit** para realizar previsões de ataques cibernéticos com base em modelos de Machine Learning.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Upload de arquivos CSV com dados de tráfego de rede
-- Detecção automática do tipo de classificação: binária ou multiclasse
-- Escolha de modelos de ML previamente treinados
-- Visualização dos resultados com gráficos de barras e pizza (binário) ou mapa de calor (multiclasse)
-- Interface interativa em modo dark
+- Upload de arquivos CSV com dados de tráfego de rede.
+- Detecção automática do tipo de classificação: Binária ou Multiclasse.
+- Escolha de modelos de ML previamente treinados.
+- Visualização dos resultados com gráficos.
+- Interface interativa.
 
 ---
 
@@ -24,7 +24,6 @@ Certifique-se de ter instalado:
 - pip
 - [JupyterLab](https://jupyter.org/install) (opcional)
 - Os seguintes pacotes Python:
-
 ```bash
 pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboost streamlit-lottie os datetime requests
 ```
@@ -89,8 +88,7 @@ streamlit run app.py
 
 ## 📌 Observações
 
-- O arquivo `modelos.pkl` precisa estar dentro da pasta `notebooks/` para o app funcionar corretamente.
-- O aplicativo detecta automaticamente o tipo de modelo (binário ou multiclasse) com base na coluna `Tipos de Ataques`.
+- O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
 - Apenas arquivos `.csv` são aceitos.
 
 ---

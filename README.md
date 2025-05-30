@@ -67,23 +67,38 @@ pip install -r requirements.txt
 ```
 
 ### 3. Baixe o arquivo de modelos (.pkl)
+⚠️ Atenção: O arquivo `modelos.pkl` (com os modelos treinados) não pode ser enviado ao GitHub devido ao limite de 25MB.
 
-⚠️ O arquivo modelos.pkl (com mais de 25MB) não pode ser enviado pelo GitHub.
+➡️ Baixe o arquivo aqui: [LINK_DO_GOOGLE_DRIVE]
 
-Baixe manualmente aqui: [LINK_DO_GOOGLE_DRIVE]
+Depois de baixar, coloque o arquivo dentro da pasta `notebooks/` do projeto.
 
-Depois, coloque-o dentro da pasta notebooks/.
-
-### 4. Rodar a Aplicação
-
-Acesse a pasta scripts/ e execute:
+### 4. Navegue até a pasta do projeto:
 
 ```bash
-cd scripts
+cd caminho/para/a/pasta/scripts
+```
+
+### 5. Rode o Streamlit:
+
+```bash
 streamlit run app.py
 ```
-Abra o link gerado no terminal (geralmente http://localhost:8501) para interagir com a aplicação.
-8888888888888888888888888888888
+
+Abra o link gerado no terminal para interagir com a aplicação.
+
+## 📌 Observações
+
+- O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
+- Apenas arquivos `.csv` são aceitos.
+
+## 👨‍💻 Desenvolvedor
+
+- **Nome**: Augusto Oliveira Silva
+- **Curso**: Ciência da Computação
+- **RA**: 22153474
+
+
 ### 2. Usando o terminal comum do sistema
 
 1. Abra o terminal ou prompt de comando
@@ -99,56 +114,16 @@ cd caminho/para/a/pasta/scripts
 streamlit run app.py
 ```
 
----
 
 
 
----
-
-## 👨‍💻 Desenvolvedor
-
-- **Nome**: Augusto Oliveira  
-- **RA**: 22153474
 
 
 
-# 🛠️ Instruções de Instalação e Execução
-
-## ✅ Clonando o Repositório
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio/scripts
-```
-
-pip install -r ../requirements.txt
-```
-
-## ⚠️ Atenção: Download Manual Necessário
-
-O arquivo `modelos.pkl` (com os modelos treinados) não pode ser enviado ao GitHub devido ao limite de 25MB.
-
-➡️ Baixe o arquivo aqui: [LINK_DO_GOOGLE_DRIVE]
-
-Depois de baixar, coloque o arquivo dentro da pasta `notebooks/` do projeto.
-
-## ▶️ Rodando a Aplicação
-
-```bash
-streamlit run app.py
-```
-
-## 📌 Observações
-
-- O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
-- Apenas arquivos `.csv` são aceitos.
-
-Abra o link exibido no terminal (geralmente http://localhost:8501) no navegador.
-
----
 
 
-88888888888888888888888888888888888888888888888888888888888888888
+
+
 
 ### 1. Usando o terminal do JupyterLab
 

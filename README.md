@@ -94,3 +94,37 @@ streamlit run app.py
 
 - **Nome**: Augusto Oliveira  
 - **RA**: 22153474
+
+
+
+# 🛠️ Instruções de Instalação e Execução
+
+## ✅ Clonando o Repositório
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio/scripts
+```
+
+## 📦 Instalando Dependências
+
+Recomenda-se criar um ambiente virtual:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # No Windows: .venv\Scripts\activate
+pip install -r ../requirements.txt
+```
+
+## ▶️ Rodando a Aplicação
+
+```bash
+streamlit run app.py
+```
+
+Abra o link exibido no terminal (geralmente http://localhost:8501) no navegador.
+
+---
+
+✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.
+

@@ -67,13 +67,16 @@ pip install -r requirements.txt
 ```
 
 ### 3. Baixe o arquivo de modelos (.pkl)
-⚠️ Atenção: O arquivo `modelos.pkl` (com os modelos treinados) não pode ser enviado ao GitHub devido ao limite de 25MB.
+⚠️ Atenção: O arquivo `modelos.pkl` não pode ser enviado ao GitHub devido ao limite de 25MB.
 
 ➡️ Baixe o arquivo aqui: [LINK_DO_GOOGLE_DRIVE]
 
-Depois de baixar, coloque o arquivo dentro da pasta `notebooks/` do projeto.
+Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
 ### 4. Navegue até a pasta do projeto:
+
+- Clique com o botão direito na pastas `/Script` e selecione `Copy Path`
+- Abra o terminal e cole esse código abaixo:
 
 ```bash
 cd caminho/para/a/pasta/scripts
@@ -81,16 +84,21 @@ cd caminho/para/a/pasta/scripts
 
 ### 5. Rode o Streamlit:
 
+Após acessar a pasta `/Scripts`, coloque esse código abaixo no terminal:
 ```bash
 streamlit run app.py
 ```
 
-Abra o link gerado no terminal para interagir com a aplicação.
+Abra o link gerado no navegador (http://localhost:...) para interagir com a aplicação.
+
+---
 
 ## 📌 Observações
 
 - O arquivo `modelos.pkl` precisa estar dentro da pasta `Notebooks/` para o app funcionar corretamente.
 - Apenas arquivos `.csv` são aceitos.
+
+---
 
 ## 👨‍💻 Desenvolvedor
 

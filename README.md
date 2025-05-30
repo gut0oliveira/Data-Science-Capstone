@@ -119,6 +119,14 @@ source .venv/bin/activate  # No Windows: .venv\Scripts\activate
 pip install -r ../requirements.txt
 ```
 
+## ⚠️ Atenção: Download Manual Necessário
+
+O arquivo `modelos.pkl` (com os modelos treinados) não pode ser enviado ao GitHub devido ao limite de 25MB.
+
+➡️ Baixe o arquivo aqui: [LINK_DO_GOOGLE_DRIVE]
+
+Depois de baixar, coloque o arquivo dentro da pasta `notebooks/` do projeto.
+
 ## ▶️ Rodando a Aplicação
 
 ```bash

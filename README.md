@@ -80,7 +80,7 @@ Devido ao tamanho do arquivo `modelos.pkl`, o mesmo não pode ser enviado ao Git
 ⚠️ ATENÇÃO: 
 
 ```bash
-O arquivo tem 111 MB, então o Google pode mostrar um aviso dizendo que não foi possível verificar vírus.
+O arquivo tem 111MB, então o Google pode mostrar um alerta.
 Pode prosseguir com segurança clicando em 'Fazer o download mesmo assim'`
 ```
 

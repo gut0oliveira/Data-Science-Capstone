@@ -107,10 +107,11 @@ Abra o link gerado no navegador (http://localhost:...) para interagir com a apli
 
 ---
 
+✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.
+
+---
 ## 👨‍💻 Desenvolvedor
 
 - **Nome**: Augusto Oliveira Silva
 - **Curso**: Ciência da Computação
 - **RA**: 22153474
-
-✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.

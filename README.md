@@ -74,11 +74,12 @@ pip install -r requirements.txt
 ```
 
 ### 3. Baixe o arquivo de modelos (.pkl)
-⚠️ Atenção: O arquivo `modelos.pkl` não pode ser enviado ao GitHub devido ao limite de 25MB.
+
+Devido ao tamanho do arquivo `modelos.pkl`, o mesmo não pode ser enviado ao GitHub por ser maior que 25MB.
+
+⚠️ ATENÇÃO: O arquivo tem 111 MB, então o Google pode mostrar um aviso dizendo que não foi possível verificar vírus. Pode prosseguir com segurança clicando em **"Fazer o download mesmo assim"**.
 
 📦 Clique aqui para baixar o arquivo: [`modelos.pkl`](https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2)
-
-⚠️ O arquivo tem 111 MB, então o Google pode mostrar um aviso dizendo que não foi possível verificar vírus. Pode prosseguir com segurança clicando em **"Fazer o download mesmo assim"**.
 
 Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 

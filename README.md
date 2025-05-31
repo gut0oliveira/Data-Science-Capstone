@@ -77,7 +77,7 @@ pip install -r requirements.txt
 
 Devido ao tamanho do arquivo `modelos.pkl`, o mesmo não pode ser enviado ao GitHub por ser maior que 25MB.
 
-**⚠️ ATENÇÃO**
+**⚠️ATENÇÃO⚠️**
 
 ```bash
 O arquivo tem 111MB, então o Google pode mostrar um alerta.

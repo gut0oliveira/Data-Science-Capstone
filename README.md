@@ -84,7 +84,7 @@ O arquivo tem 111MB, então o Google pode mostrar um alerta.
 Pode prosseguir com segurança clicando em 'Fazer o download mesmo assim'`
 ```
 
-📦 Clique aqui para baixar o arquivo: <a href="https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2" target="_blank">modelos.pkl</a>
+Clique aqui para baixar o arquivo: <a href="https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2" target="_blank">modelos.pkl</a>
 
 Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 

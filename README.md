@@ -1,10 +1,7 @@
 <h1 align="center">Data Science Capstone</h1>
-<\br>
-<h2 align="center"> Previsão de Arquivos Maliciosos usando Machine Learning</h1>
+<h2 align="center">Previsão de Arquivos Maliciosos usando Machine Learning</h2>
 
-Este projeto é uma aplicação desenvolvida com **Streamlit** para realizar previsões de ataques cibernéticos com base em modelos de Machine Learning.
-
----
+Este projeto é uma aplicação **Streamlit** feita para realizar previsões de ataques cibernéticos com base em modelos de Machine Learning.
 
 ## 🚀 Funcionalidades
 
@@ -13,8 +10,6 @@ Este projeto é uma aplicação desenvolvida com **Streamlit** para realizar pre
 - Escolha de modelos de ML previamente treinados.
 - Visualização dos resultados com gráficos.
 - Interface interativa.
-
----
 
 ## 🧩 Requisitos
 
@@ -26,8 +21,6 @@ Certifique-se de ter instalado:
 ```bash
 pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboost streamlit-lottie os datetime requests
 ```
-
----
 
 ## 📁 Estrutura do Projeto
 
@@ -56,18 +49,25 @@ Data-Science-Capstone/
 ├── requirements.txt                       # Pacotes necessários
 ```
 
----
-
 ## 🛠️ Como Instalar e Executar
+
+Antes de tudo, abra a sua IDE e siga os passos abaixo:
 
 ### 1. Clone o repositório
 
+Abra um novo terminal e coloque esse código:
+
 ```bash
 git clone https://github.com/gut0oliveira/data-science-capstone.git
+```
+Em seguida, este:
+```bash
 cd data-science-capstone
 ```
 
 ### 2. Instale as dependências
+
+Depois de executar os códigos acima, instale as dependências necessárias:
 
 ```bash
 pip install -r requirements.txt
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ### 3. Baixe o arquivo de modelos (.pkl)
 ⚠️ Atenção: O arquivo `modelos.pkl` não pode ser enviado ao GitHub devido ao limite de 25MB.
 
-➡️ Baixe o arquivo aqui: [Drive](https://drive.google.com/drive/folders/1jXfISmh7TDFaJjiEeeAgV-KyDmYKl2jx?usp=drive_link)
+📦 Clique aqui para baixar o arquivo: [`modelos.pkl`](https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2)
 
 Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 

@@ -63,7 +63,7 @@ Data-Science-Capstone/
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/augusto-oliveira/data-science-capstone.git
+git clone https://github.com/gut0oliveira/data-science-capstone.git
 cd data-science-capstone
 ```
 

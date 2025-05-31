@@ -80,9 +80,9 @@ pip install -r requirements.txt
 
 Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
-### 4. Navegue até a pasta /Scripts do projeto:
+### 4. Navegue até a pasta /scripts do projeto:
 
-- Clique com o botão direito na pastas `/scripts` e selecione `Copy Path`
+- Clique com o botão direito na pasta `/scripts` e selecione `Copy Path`
 - Abra o terminal e cole digite o código abaixo:
 ```bash
 cd caminho/copiado/para/a/pasta/scripts

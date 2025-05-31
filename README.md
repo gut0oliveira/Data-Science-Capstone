@@ -34,14 +34,14 @@ pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboos
 ```
 Data-Science-Capstone/
 │
-├── notebooks/
+├── Notebooks/
 │   └── 1-data-preprocessing.ipynb         # Coleta e Preparação dos Dados
 │   └── 2-exploratory-data-analysis.ipynb  # Análise Exploratória dos Dados
 │   └── 3-feature-engineering              # Engenharia de Features
 │   └── 4-ml-models                        # Modelagem ML
 │   └── modelos.pkl                        # Modelos treinados
 │
-├── scripts/
+├── Scripts/
 │   ├── app.py                             # Aplicação Streamlit
 │   └── visuals.py                         # Funções visuais do app
 │
@@ -74,7 +74,7 @@ Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
 ### 4. Navegue até a pasta /Scripts do projeto:
 
-- Clique com o botão direito na pastas `/Script` e selecione `Copy Path`
+- Clique com o botão direito na pastas `/Scripts` e selecione `Copy Path`
 - Abra o terminal e cole digite o código abaixo:
 
 ```bash

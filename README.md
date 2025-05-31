@@ -1,6 +1,6 @@
 <h1 align="center">Data Science Capstone</h1>
-
-## Previsão de Arquivos Maliciosos usando Machine Learning
+<\br>
+<h2 align="center"> Previsão de Arquivos Maliciosos usando Machine Learning</h1>
 
 Este projeto é uma aplicação desenvolvida com **Streamlit** para realizar previsões de ataques cibernéticos com base em modelos de Machine Learning.
 

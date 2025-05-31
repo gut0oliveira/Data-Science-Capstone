@@ -22,7 +22,6 @@ Certifique-se de ter instalado:
 
 - Python 3.8+
 - pip
-- [JupyterLab](https://jupyter.org/install) (opcional)
 - Os seguintes pacotes Python:
 ```bash
 pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboost streamlit-lottie os datetime requests

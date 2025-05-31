@@ -1,4 +1,4 @@
-# Data-Science-Capstone
+<h1 align="center">Data Science Capstone</h1>
 
 ## Previsão de Arquivos Maliciosos usando Machine Learning
 

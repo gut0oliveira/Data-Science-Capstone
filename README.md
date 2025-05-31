@@ -66,6 +66,7 @@ Data-Science-Capstone/
 git clone https://github.com/augusto-oliveira/data-science-capstone.git
 cd data-science-capstone
 ```
+
 ### 2. Instale as dependências
 
 ```bash
@@ -83,7 +84,6 @@ Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
 - Clique com o botão direito na pastas `/Scripts` e selecione `Copy Path`
 - Abra o terminal e cole digite o código abaixo:
-
 ```bash
 cd caminho/copiado/para/a/pasta/scripts
 ```
@@ -91,11 +91,9 @@ cd caminho/copiado/para/a/pasta/scripts
 ### 5. Rode o Streamlit:
 
 Após acessar a pasta `/Scripts`, coloque esse código abaixo no terminal:
-
 ```bash
 streamlit run app.py
 ```
-
 Abra o link gerado no navegador (http://localhost:...) para interagir com a aplicação.
 
 ---
@@ -104,8 +102,6 @@ Abra o link gerado no navegador (http://localhost:...) para interagir com a apli
 
 - O arquivo `modelos.pkl` precisa estar dentro da pasta `/Notebooks` para o app funcionar corretamente.
 - Apenas arquivos `.csv` são aceitos.
-
----
 
 ✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.
 

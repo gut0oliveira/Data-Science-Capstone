@@ -33,6 +33,13 @@ pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboos
 
 ```
 Data-Science-Capstone/
+├── Amostras/
+│   └── amostra_1.csv                      # Amostra de Teste 1
+│   └── amostra_2.csv                      # Amostra de Teste 2
+│   └── amostra_3.csv                      # Amostra de Teste 3
+│   └── amostra_4.csv                      # Amostra de Teste 4
+│   └── amostra_5.csv                      # Amostra de Teste 5
+│   └── amostra_6.csv                      # Amostra de Teste 6
 │
 ├── Notebooks/
 │   └── 1-data-preprocessing.ipynb         # Coleta e Preparação dos Dados
@@ -45,8 +52,8 @@ Data-Science-Capstone/
 │   ├── app.py                             # Aplicação Streamlit
 │   └── visuals.py                         # Funções visuais do app
 │
-├── requirements.txt                       # Pacotes necessários
 ├── README.md                              # Este arquivo
+├── requirements.txt                       # Pacotes necessários
 ```
 
 ---

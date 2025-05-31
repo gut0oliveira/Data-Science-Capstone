@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
-### 4. Navegue até a pasta do projeto:
+### 4. Navegue até a pasta /Scripts do projeto:
 
 - Clique com o botão direito na pastas `/Script` e selecione `Copy Path`
 - Abra o terminal e cole digite o código abaixo:
@@ -84,6 +84,7 @@ cd caminho/copiado/para/a/pasta/scripts
 ### 5. Rode o Streamlit:
 
 Após acessar a pasta `/Scripts`, coloque esse código abaixo no terminal:
+
 ```bash
 streamlit run app.py
 ```

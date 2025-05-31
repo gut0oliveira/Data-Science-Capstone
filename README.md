@@ -66,7 +66,6 @@ cd data-science-capstone
 ```
 
 ### 2. Instale as dependências
-
 Depois de executar os códigos acima, instale as dependências necessárias:
 
 ```bash
@@ -90,8 +89,9 @@ Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
 ### 4. Navegue até a pasta /scripts do projeto:
 
-- Clique com o botão direito na pasta `/scripts` e selecione `Copy Path`
-- Abra o terminal e cole digite o código abaixo:
+Clique com o botão direito na pasta `/scripts` e selecione `Copy Path`
+
+Abra o terminal e cole o código, como no exemplo abaixo:
 ```bash
 cd caminho/copiado/para/a/pasta/scripts
 ```
@@ -103,8 +103,6 @@ Após acessar a pasta `/scripts`, coloque esse código abaixo no terminal:
 streamlit run app.py
 ```
 Abra o link gerado no navegador (http://localhost:...) para interagir com a aplicação.
-
----
 
 ## 📌 Observações
 

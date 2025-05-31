@@ -33,7 +33,7 @@ pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboos
 
 ```
 Data-Science-Capstone/
-├── Amostras/
+├── amostras/
 │   └── amostra_1.csv                      # Amostra de Teste 1
 │   └── amostra_2.csv                      # Amostra de Teste 2
 │   └── amostra_3.csv                      # Amostra de Teste 3
@@ -41,14 +41,14 @@ Data-Science-Capstone/
 │   └── amostra_5.csv                      # Amostra de Teste 5
 │   └── amostra_6.csv                      # Amostra de Teste 6
 │
-├── Notebooks/
+├── notebooks/
 │   └── 1-data-preprocessing.ipynb         # Coleta e Preparação dos Dados
 │   └── 2-exploratory-data-analysis.ipynb  # Análise Exploratória dos Dados
 │   └── 3-feature-engineering              # Engenharia de Features
 │   └── 4-ml-models                        # Modelagem ML
 │   └── modelos.pkl                        # Modelos treinados
 │
-├── Scripts/
+├── scripts/
 │   ├── app.py                             # Aplicação Streamlit
 │   └── visuals.py                         # Funções visuais do app
 │
@@ -82,7 +82,7 @@ Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
 ### 4. Navegue até a pasta /Scripts do projeto:
 
-- Clique com o botão direito na pastas `/Scripts` e selecione `Copy Path`
+- Clique com o botão direito na pastas `/scripts` e selecione `Copy Path`
 - Abra o terminal e cole digite o código abaixo:
 ```bash
 cd caminho/copiado/para/a/pasta/scripts
@@ -90,7 +90,7 @@ cd caminho/copiado/para/a/pasta/scripts
 
 ### 5. Rode o Streamlit:
 
-Após acessar a pasta `/Scripts`, coloque esse código abaixo no terminal:
+Após acessar a pasta `/scripts`, coloque esse código abaixo no terminal:
 ```bash
 streamlit run app.py
 ```
@@ -100,7 +100,7 @@ Abra o link gerado no navegador (http://localhost:...) para interagir com a apli
 
 ## 📌 Observações
 
-- O arquivo `modelos.pkl` precisa estar dentro da pasta `/Notebooks` para o app funcionar corretamente.
+- O arquivo `modelos.pkl` precisa estar dentro da pasta `/notebooks` para o app funcionar corretamente.
 - Apenas arquivos `.csv` são aceitos.
 
 ✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.

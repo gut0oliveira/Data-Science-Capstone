@@ -15,8 +15,11 @@ Este projeto é uma aplicação **Streamlit** feita para realizar previsões de 
 
 Certifique-se de ter instalado:
 
-- Python 3.8+
-- pip
+- Ter instalado na máquina o Python 3.8+;
+- Ter instalado na máquina o Pip (instalação normalmente ocorre junto com o python);
+- Ter o Git/Github instalado na máquina;
+- Ter feito o download do arquivo modelos.pkl e colocado o mesmo na pasta /notebooks;
+- Os dados de teste devem estar no formato .csv.
 - Os seguintes pacotes Python:
 ```bash
 pip install streamlit pandas numpy joblib matplotlib seaborn scikit-learn xgboost streamlit-lottie os datetime requests

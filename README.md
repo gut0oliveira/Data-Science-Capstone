@@ -51,8 +51,6 @@ Data-Science-Capstone/
 
 ## 🛠️ Como Instalar e Executar
 
-Antes de tudo, abra a sua IDE e siga os passos abaixo:
-
 ### 1. Clone o repositório
 
 Abra um novo terminal e coloque esse código:

@@ -107,6 +107,13 @@ O navegador será aberto automaticamente em `http://localhost:8501`, onde você 
 - O arquivo `modelos.pkl` precisa estar dentro da pasta `/notebooks` para o app funcionar corretamente.
 - Apenas arquivos `.csv` são aceitos.
 
+## Aplicação
+
+Caso voc~e tenha feito todos os passos corretamente, você verá uma tela como essa abaixo:
+
+![image](https://github.com/user-attachments/assets/55744db9-be76-4eef-ba8b-abe72ded8d08)
+
+
 ✅ Pronto! Agora você pode fazer upload de um arquivo CSV para testar os modelos de Machine Learning.
 
 ---

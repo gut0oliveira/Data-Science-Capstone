@@ -56,15 +56,13 @@ Data-Science-Capstone/
 
 ### 1. Clone o repositório
 
-Abra um novo terminal e coloque esse código:
+Abra o terminal e execute:
 
 ```bash
 git clone https://github.com/gut0oliveira/data-science-capstone.git
-```
-Em seguida, este:
-```bash
 cd data-science-capstone
 ```
+
 
 ### 2. Instale as dependências
 Depois de executar os códigos acima, instale as dependências necessárias:
@@ -73,37 +71,37 @@ Depois de executar os códigos acima, instale as dependências necessárias:
 pip install -r requirements.txt
 ```
 
-### 3. Baixe o arquivo de modelos (.pkl)
-
-Devido ao tamanho do arquivo `modelos.pkl`, o mesmo não pode ser enviado ao GitHub por ser maior que 25MB.
-
-**⚠️ATENÇÃO⚠️**
+### 3. Baixe o arquivo de (`modelos .pkl`)
 
 ```bash
-O arquivo tem 111MB, então o Google pode mostrar um alerta.
-Pode prosseguir com segurança clicando em 'Fazer o download mesmo assim'`
+⚠️ ATENÇÃO:
+O arquivo modelos.pkl tem aproximadamente 111MB.
+O GitHub não permite arquivos desse tamanho, então ele está hospedado externamente.
 ```
 
-Clique aqui para baixar o arquivo: <a href="https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2" target="_blank">modelos.pkl</a>
+- Clique aqui para baixar o arquivo: <a href="https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2" target="_blank">modelos.pkl</a>
 
-Depois de baixar, coloque o arquivo dentro da pasta `/notebooks` do projeto.
+- Após o download, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
-### 4. Navegue até a pasta /scripts do projeto:
+### 4. Acesse a pasta /scripts do projeto:
 
-Clique com o botão direito na pasta `/scripts` e selecione `Copy Path`
+No terminal, navegue até a pasta onde está o arquivo `app.py`. Exemplo:
 
-Abra o terminal e cole o código, como no exemplo abaixo:
 ```bash
-cd caminho/copiado/para/a/pasta/scripts
+cd notebooks/scripts
+```
+Ou copie o caminho absoluto da pasta `/scripts` e cole no terminal assim:
+```bash
+cd "C:\Users\SeuUsuario\Documents\GitHub\data-science-capstone\notebooks\scripts"
 ```
 
 ### 5. Rode o Streamlit:
 
-Após acessar a pasta `/scripts`, coloque esse código abaixo no terminal:
+Execute o seguinte comando:
 ```bash
 streamlit run app.py
 ```
-Abra o link gerado no navegador (http://localhost:...) para interagir com a aplicação.
+O navegador será aberto automaticamente em `http://localhost:8501`, onde você poderá interagir com a aplicação.
 
 ## 📌 Observações
 

@@ -116,7 +116,6 @@ Caso tenha feito todos os passos corretamente, você verá uma tela como essa ab
 
 ✅ Pronto! Agora você pode fazer upload de uma amostra.csv para testar os modelos de Machine Learning.
 
----
 ## 👨‍💻 Desenvolvedor
 
 - **Nome**: Augusto Oliveira Silva

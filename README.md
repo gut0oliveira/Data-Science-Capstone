@@ -9,7 +9,7 @@ Este projeto é uma aplicação **Streamlit** feita para realizar previsões de 
 - Detecção automática do tipo de classificação: Binária ou Multiclasse.
 - Escolha de modelos de ML previamente treinados.
 - Visualização dos resultados com gráficos.
-- Interface interativa.
+- Barra lateral com breves informações sobre o projeto.
 
 ## 🧩 Requisitos
 

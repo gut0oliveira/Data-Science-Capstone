@@ -96,10 +96,10 @@ def sidebar_info():
         )
         st.markdown(
             """
-            - [1. Pré-processamento de Dados](http://localhost:8889/lab/tree/Capstone-Data-Science-Project/notebooks/1-data-preprocessing.ipynb)
-            - [2. Análise Exploratória de Dados](http://localhost:8889/lab/tree/Capstone-Data-Science-Project/notebooks/2-exploratory-data-analysis.ipynb)
-            - [3. Engenharia de Atributos](http://localhost:8889/lab/tree/Capstone-Data-Science-Project/notebooks/3-feature-engineering.ipynb)
-            - [4. Treinamento e Avaliação](http://localhost:8889/lab/tree/Capstone-Data-Science-Project/notebooks/4-model-training.ipynb)
+            1. Pré-processamento de Dados
+            2. Análise Exploratória de Dados
+            3. Engenharia de Atributos
+            4. Treinamento e Avaliação
             """
         )
         st.markdown("---")

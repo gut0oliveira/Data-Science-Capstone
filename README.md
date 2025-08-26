@@ -78,7 +78,7 @@ pip install -r requirements.txt
 O arquivo modelos.pkl tem aproximadamente 111MB.
 O GitHub não permite arquivos desse tamanho, então ele está hospedado externamente.
 ```
-- Clique aqui para baixar o arquivo: <a href="https://drive.google.com/uc?export=download&id=1wWmQbKhzWJxsIQc_MfjYCEfkIgvdvHi2" target="_blank">modelos.pkl</a>
+- Clique aqui para baixar o arquivo: <a href="https://drive.google.com/uc?export=download&id=1G2KdSuNIB2AhkjIxHYltHwDCeeYp3XHn" target="_blank">modelos.pkl</a>
 
 - Após o download, coloque o arquivo dentro da pasta `/notebooks` do projeto.
 
